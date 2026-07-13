@@ -4,7 +4,7 @@
 
 **Backend Developer** · NIT Rourkela
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=480&height=40&lines=Building+APIs+%26+backends;Scalable+systems;RESTful+services;Database+design)](https://github.com/tabrez-nitr)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=480&height=40&lines=Building+APIs+%26+backends;Crafting+scalable+systems;Always+learning+%26+growing)]
 
 </div>
 
@@ -60,6 +60,10 @@ Focus     Scalable systems · REST APIs · Databases
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
+![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square&logo=langsmith&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini%20API-8F7EE7?style=flat-square&logo=google&logoColor=white)
 
 ---
 
@@ -67,12 +71,12 @@ Focus     Scalable systems · REST APIs · Databases
 
 <div align="center">
 
-<img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=tabrez-nitr&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9" alt="GitHub Stats" />
-<img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=tabrez-nitr&layout=compact&langs_count=6&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=c9d1d9" alt="Top Languages" />
+<img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=tabrez-nitr&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41" />
+<img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=tabrez-nitr&layout=compact&langs_count=6&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41" />
 
 <br/>
 
-[![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=tabrez-nitr&theme=github-compact&area=true&hide_border=true&bg_color=0D1117&color=00FF41&line=00FF41&point=FFFFFF&area_color=00FF41)](https://github.com/tabrez-nitr)
+[![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=tabrez-nitr&theme=github-compact&area=true&hide_border=true&bg_color=0D1117&color=00FF41&line=00FF41&point=00FF41)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
