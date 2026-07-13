@@ -1,0 +1,57 @@
+{
+  "image": true,
+  "coloredImage": true,
+  "imageScale": 1,
+  "removeBackground": true,
+  "sections": [
+    {
+      "title": "{{username}}@github",
+      "fields": [
+        { "key": "OS", "value": "macOS" },
+        { "key": "Uptime", "value": "{{uptime}}" },
+        { "key": "Host", "value": "github.com" },
+        { "key": "Kernel", "value": "Darwin" },
+        { "key": "IDE", "value": "VS Code" }
+      ]
+    },
+    {
+      "fields": [
+        { "key": "Languages.Programming", "value": "TypeScript, Python, Go" },
+        { "key": "Languages.Computer", "value": "Node.js, Express, FastAPI" },
+        { "key": "Languages.Real", "value": "English" }
+      ]
+    },
+    {
+      "fields": [
+        { "key": "Databases", "value": "PostgreSQL, MongoDB, Redis" },
+        { "key": "DevOps", "value": "Docker, Git" }
+      ]
+    },
+    {
+      "fields": [
+        { "key": "Hobbies.Software", "value": "Open Source, CLI Tools" },
+        { "key": "Hobbies.Hardware", "value": "Keyboards, Mechanical" }
+      ]
+    },
+    {
+      "fields": [
+        { "key": "Education", "value": "NIT Rourkela, B.Tech" },
+        { "key": "Role", "value": "Backend Developer" }
+      ]
+    }
+  ],
+  "stats": {
+    "title": "- GitHub Stats",
+    "rows": [
+      {
+        "left": { "key": "Repos", "value": "{{repos}}" },
+        "right": { "key": "Stars", "value": "{{stars}}" }
+      },
+      {
+        "left": { "key": "Commits", "value": "{{commits}}" },
+        "right": { "key": "Followers", "value": "{{followers}}" }
+      },
+      "loc"
+    ]
+  }
+}
