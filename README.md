@@ -1,167 +1,49 @@
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
-<!--  SAMS TABREZ  -->
-<!-- ══════════════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&repeat=true&width=600&height=50&lines=%24+ssh+tabrez-nitr%40github.com;%24+cat+%2Fetc%2Fwelcome.txt;%3E+Welcome+to+my+terminal+%F0%9F%96%A5%EF%B8%8F)](https://git.io/typing-svg)
+# Sams Tabrez
 
-</div>
+**Backend Developer** · NIT Rourkela
 
-```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                                                                              │
-│   ███████╗ █████╗ ███╗   ███╗███████╗    ████████╗ █████╗ ██████╗ ██████╗    │
-│   ██╔════╝██╔══██╗████╗ ████║██╔════╝    ╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗   │
-│   ███████╗███████║██╔████╔██║███████╗       ██║   ███████║██████╔╝██████╔╝   │
-│   ╚════██║██╔══██║██║╚██╔╝██║╚════██║       ██║   ██╔══██║██╔══██╗██╔══██╗   │
-│   ███████║██║  ██║██║ ╚═╝ ██║███████║       ██║   ██║  ██║██████╔╝██║  ██║   │
-│   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝       ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝   │
-│                                                                              │
-│                    Backend Developer · NIT Rourkela                           │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## `$ whoami`
-
-```bash
-┌─[tabrez-nitr@github]─[~]
-└──╼ $ cat /etc/profile
-
-  Name        :  Sams Tabrez
-  Role        :  Backend Developer
-  Location    :  India 🇮
-  University  :  National Institute of Technology, Rourkela
-  Degree      :  B.Tech
-
-  ┌─ What I Do ──────────────────────────────────────────────────┐
-  │  → Building scalable backend systems & APIs                  │
-  │  → Working with databases                                    │
-  │  → Automating everything that can be automated               │
-  └──────────────────────────────────────────────────────────────┘
-
-  fun_fact="I debug with print statements and I'm not ashamed of it 🐛"
-```
-
----
-
-## `$ cat /proc/skills`
-
-```bash
-┌─[tabrez-nitr@github]─[~/skills]
-└──╼ $ tree --dirsfirst
-
-skills/
-├── languages/
-│   ├── python.py          ██████████████████░░
-│   ├── typescript.ts      █████████████████░░░
-│   ├── javascript.js      █████████████████░░░
-│   └── sql.sql            ████████████████░░░░
-│
-├── backend/
-│   ├── nodejs             ████████████████░░░░
-│   ├── express            ████████████████░░░░
-│   └── fastapi            ██████████████░░░░░░
-│
-├── databases/
-│   ├── postgresql         ████████████████░░░░
-│   ├── mongodb            ██████████████░░░░░░
-│   ├── redis              ████████████░░░░░░░░
-│   └── mysql              ██████████████░░░░░░
-│
-├── devops/
-│   └── docker             ██████████████░░░░░░
-│
-└── tools/
-    ├── git                ████████████████░░░░
-    ├── vscode             ████████████████████
-    ├── postman            ██████████████░░░░░░
-    ├── obsidian           ████████████████░░░░
-    ├── notion             ██████████████░░░░░░
-    └── antigravity        ████████████████████
-
-5 directories, 15 files
-```
-
----
-
-## `$ systemctl status services`
-
-```bash
-┌─[tabrez-nitr@github]─[~/services]
-└──╼ $ systemctl list-units --type=service
-
-  UNIT                        STATE     DESCRIPTION
-  ─────────────────────────────────────────────────────────────
-  backend-dev.service         ● active  Building REST APIs
-  database-mgmt.service       ● active  PostgreSQL, MongoDB, Redis
-  containerization.service    ● active  Docker & Container Orchestration
-  version-control.service     ● active  Git Flow & Code Reviews
-  api-testing.service         ● active  Postman & Integration Testing
-  documentation.service       ● active  Obsidian & Technical Writing
-  problem-solving.service     ● active  DSA
-
-  7 loaded, 7 active, 0 inactive, 0 failed
-```
-
----
-
-## `$ cat /var/log/education.log`
-
-```bash
-┌─[tabrez-nitr@github]─[~/education]
-└──╼ $ journalctl -u education --no-pager
-
-  ╔══════════════════════════════════════════════════════════════╗
-  ║  🎓  NATIONAL INSTITUTE OF TECHNOLOGY, ROURKELA             ║
-  ║  ──────────────────────────────────────────────────────────  ║
-  ║  Degree    :  Bachelor of Technology (B.Tech)                ║
-  ║  Location  :  Rourkela, Odisha, India                        ║
-  ║  Status    :   OnGoing                                ║
-  ╚══════════════════════════════════════════════════════════════╝
-```
-
----
-
-## `$ htop --sort=commits`
-
-<div align="center">
-
-<a href="https://github.com/tabrez-nitr">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=tabrez-nitr&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tabrez-nitr&layout=compact&langs_count=8&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=c9d1d9" alt="Top Languages" />
-</a>
-
-<br/><br/>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=tabrez-nitr&theme=dark&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=c9d1d9&dates=555555)](https://git.io/streak-stats)
-
-<br/>
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=tabrez-nitr&theme=github-compact&hide_border=true&bg_color=0D1117&color=00FF41&line=00FF41&point=FFFFFF&area_color=00FF41&area=true)](https://github.com/tabrez-nitr)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=480&height=40&lines=Building+APIs+%26+backend+systems;%24+whoami)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## `$ cat /proc/achievements`
+### About
 
-<div align="center">
+Backend developer at **NIT Rourkela**. I build APIs, work with databases, and automate what I can.
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=tabrez-nitr&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
+```
+Name      Sams Tabrez
+Role      Backend Developer
+Focus     Scalable systems · REST APIs · Databases
+Stack     Node.js · Python · PostgreSQL · Docker
+```
 
 ---
 
-## `$ fortune | cowsay`
+### Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+---
+
+### Stats
 
 <div align="center">
 
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true)](https://github.com/piyushsuthar/github-readme-quotes)
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=tabrez-nitr&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9" alt="GitHub Stats" />
+<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tabrez-nitr&layout=compact&langs_count=6&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=c9d1d9" alt="Top Languages" />
 
 </div>
 
@@ -169,22 +51,6 @@ skills/
 
 <div align="center">
 
-```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                                                                              │
-│   $ echo "Thanks for visiting! Don't forget to ⭐ a repo if you like it!"   │
-│                                                                              │
-│   visitor_count=$(( visitor_count + 1 ))                                     │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
-
-![Profile Views](https://komarev.com/ghpvc/?username=tabrez-nitr&style=flat-square&color=00FF41&label=terminal_sessions)
-
-```
-┌─[tabrez-nitr@github]─[~]
-└──╼ $ exit
-Connection to github.com closed.
-```
+![Profile Views](https://komarev.com/ghpvc/?username=tabrez-nitr&style=flat-square&color=00FF41)
 
 </div>
