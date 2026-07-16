@@ -16,21 +16,17 @@
     },
     {
       "fields": [
-        { "key": "Languages.Programming", "value": "TypeScript, Python, Go" },
-        { "key": "Languages.Computer", "value": "Node.js, Express, FastAPI" },
-        { "key": "Languages.Real", "value": "English" }
+        { "key": "Languages", "value": "Python, TypeScript, JavaScript, SQL" },
+        { "key": "Frontend", "value": "TypeScript, JavaScript, HTML5, CSS3" },
+        { "key": "Backend", "value": "Node.js, Express, FastAPI, Python" }
       ]
     },
     {
       "fields": [
-        { "key": "Databases", "value": "PostgreSQL, MongoDB, Redis" },
-        { "key": "DevOps", "value": "Docker, Git" }
-      ]
-    },
-    {
-      "fields": [
-        { "key": "Hobbies.Software", "value": "Open Source, CLI Tools" },
-        { "key": "Hobbies.Hardware", "value": "Keyboards, Mechanical" }
+        { "key": "Databases", "value": "PostgreSQL, MongoDB, Redis, MySQL" },
+        { "key": "Tools.Dev", "value": "Docker, Git, VS Code, Postman" },
+        { "key": "Tools.AI", "value": "LangChain, LangGraph, LangSmith, Gemini API" },
+        { "key": "Tools.Notes", "value": "Obsidian, Notion" }
       ]
     },
     {
