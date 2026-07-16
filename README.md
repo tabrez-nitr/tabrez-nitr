@@ -1,6 +1,18 @@
-<!-- GITHUBWALLPAPER:START -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://pub-98d2cd4dac4e4a9d899b190ba95f3ace.r2.dev/cards/cvz5mmtouzmkytx0ws7b2bcd-dark.svg?v=1784184018259">
-  <source media="(prefers-color-scheme: light)" srcset="https://pub-98d2cd4dac4e4a9d899b190ba95f3ace.r2.dev/cards/cvz5mmtouzmkytx0ws7b2bcd-light.svg?v=1784184018259">
-  <img alt="GitHub profile card" src="https://pub-98d2cd4dac4e4a9d899b190ba95f3ace.r2.dev/cards/cvz5mmtouzmkytx0ws7b2bcd-dark.svg?v=1784184018259">
-</picture>
+<div align="center">
+  <img alt="GitHub profile card" src="./profile-card.svg">
+</div>
+
+---
+
+### Stats
+
+<div align="center">
+
+<img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=tabrez-nitr&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41" />
+<img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=tabrez-nitr&layout=compact&langs_count=6&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41" />
+
+<br/>
+
+[![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=tabrez-nitr&theme=github-compact&area=true&hide_border=true&bg_color=0D1117&color=00FF41&line=00FF41&point=00FF41)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>

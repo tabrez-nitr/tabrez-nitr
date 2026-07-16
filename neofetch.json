@@ -7,11 +7,10 @@
     {
       "title": "{{username}}@github",
       "fields": [
+        { "key": "Role", "value": "Backend Developer" },
+        { "key": "Education", "value": "NIT Rourkela, B.Tech" },
         { "key": "OS", "value": "macOS" },
-        { "key": "Uptime", "value": "{{uptime}}" },
-        { "key": "Host", "value": "github.com" },
-        { "key": "Kernel", "value": "Darwin" },
-        { "key": "IDE", "value": "VS Code" }
+        { "key": "IDE", "value": "VS Code, Antigravity" }
       ]
     },
     {
@@ -29,10 +28,13 @@
         { "key": "Tools.Notes", "value": "Obsidian, Notion" }
       ]
     },
+
     {
+      "title": "- Contact",
       "fields": [
-        { "key": "Education", "value": "NIT Rourkela, B.Tech" },
-        { "key": "Role", "value": "Backend Developer" }
+        { "key": "Email.Personal", "value": "tabreznitr@gmail.com" },
+        { "key": "Website", "value": "tabrez.ai.studio" },
+        { "key": "Twitter", "value": "@sams_codex" }
       ]
     }
   ],
