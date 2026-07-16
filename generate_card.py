@@ -11,44 +11,11 @@ JSON_PATH = "neofetch.json"
 IMG_PATH = "new_pfp.jpg"
 OUT_PATH = "profile-card.svg"
 
-# Fetch GitHub stats
-def fetch_stats():
-    headers = {}
-    token = os.environ.get("GITHUB_TOKEN")
-    if token:
-        headers["Authorization"] = f"token {token}"
-    
-    # User info
-    res = requests.get(f"https://api.github.com/users/{USERNAME}", headers=headers)
-    user_data = res.json() if res.status_code == 200 else {}
-    
-    followers = user_data.get("followers", 0)
-    repos = user_data.get("public_repos", 0)
-    
-    # Fetch all repos for stars & LOC (simplified)
-    stars = 0
-    loc_approx = "0 (API limit)"
-    
-    # We will fetch a single page of repos for stars
-    repos_res = requests.get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100", headers=headers)
-    if repos_res.status_code == 200:
-        repos_data = repos_res.json()
-        stars = sum(repo.get("stargazers_count", 0) for repo in repos_data)
-        loc_approx = f"{len(repos_data) * 1000} (approx)" # Mock LOC since it's hard to fetch precisely
-        
-    return {
-        "repos": str(repos),
-        "stars": str(stars),
-        "commits": "313", # Hardcoded or needs complex GraphQL/REST to calculate across all repos
-        "followers": str(followers),
-        "loc": loc_approx
-    }
-
 def get_uptime():
     # Mock uptime or use current date for fun
     return "2 years, 6 days"
 
-def render_svg(data, stats, art_svg):
+def render_svg(data, art_svg):
     lines = []
     y = 50
     x_start = 390
@@ -85,26 +52,7 @@ def render_svg(data, stats, art_svg):
             lines.append(f'<text x="{x_start}" y="{y}"><tspan class="key">{k}</tspan><tspan class="cc">: {dots} </tspan><tspan class="value" fill="#c9d1d9">{v}</tspan></text>')
             y += line_height
 
-    # Stats block
-    y += line_height
-    stats_data = data.get("stats", {})
-    if stats_data:
-        stitle = stats_data.get("title", "- GitHub Stats")
-        lines.append(f'<text x="{x_start}" y="{y}" fill="#c9d1d9">{stitle} -----------------------</text>')
-        y += line_height
-        
-        for row in stats_data.get("rows", []):
-            if isinstance(row, dict):
-                lk = row["left"]["key"]
-                lv = row["left"]["value"].replace("{{repos}}", stats["repos"]).replace("{{commits}}", stats["commits"])
-                rk = row["right"]["key"]
-                rv = row["right"]["value"].replace("{{stars}}", stats["stars"]).replace("{{followers}}", stats["followers"])
-                
-                lines.append(f'<text x="{x_start}" y="{y}"><tspan class="key">{lk}</tspan><tspan class="cc">: ....... </tspan><tspan fill="#c9d1d9">{lv}</tspan><tspan class="cc"> | </tspan><tspan class="key">{rk}</tspan><tspan class="cc">: ....... </tspan><tspan fill="#c9d1d9">{rv}</tspan></text>')
-            else:
-                if row == "loc":
-                    lines.append(f'<text x="{x_start}" y="{y}"><tspan class="key">Lines of Code</tspan><tspan class="cc">: ......... </tspan><tspan fill="#c9d1d9">{stats["loc"]}</tspan></text>')
-            y += line_height
+
 
     text_group = "\\n".join(lines)
     
@@ -166,14 +114,11 @@ def main():
     with open(JSON_PATH, "r") as f:
         data = json.load(f)
         
-    print("Fetching stats...")
-    stats = fetch_stats()
-    
     print("Generating art...")
     art = generate_art()
     
     print("Rendering SVG...")
-    svg = render_svg(data, stats, art)
+    svg = render_svg(data, art)
     
     with open(OUT_PATH, "w") as f:
         f.write(svg)
