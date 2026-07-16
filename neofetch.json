@@ -36,20 +36,13 @@
         { "key": "Website", "value": "tabrez.ai.studio" },
         { "key": "Twitter", "value": "@sams_codex" }
       ]
+    },
+    {
+      "title": "- Status",
+      "fields": [
+        { "key": "Focus", "value": "Building AI Agents" },
+        { "key": "Quote", "value": "Head down, keep pushing your limits" }
+      ]
     }
-  ],
-  "stats": {
-    "title": "- GitHub Stats",
-    "rows": [
-      {
-        "left": { "key": "Repos", "value": "{{repos}}" },
-        "right": { "key": "Stars", "value": "{{stars}}" }
-      },
-      {
-        "left": { "key": "Commits", "value": "{{commits}}" },
-        "right": { "key": "Followers", "value": "{{followers}}" }
-      },
-      "loc"
-    ]
-  }
+  ]
 }

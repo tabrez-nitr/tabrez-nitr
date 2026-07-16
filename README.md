@@ -15,4 +15,8 @@
 
 [![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=tabrez-nitr&theme=github-compact&area=true&hide_border=true&bg_color=161b22&color=c9d1d9&line=ffa657&point=a5d6ff)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=tabrez-nitr&color=ffa657&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+
 </div>
