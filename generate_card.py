@@ -8,7 +8,7 @@ from PIL import Image, ImageEnhance
 # Config
 USERNAME = "tabrez-nitr"
 JSON_PATH = "neofetch.json"
-IMG_PATH = "new_pfp.jpg"
+IMG_PATH = "pfp_2.jpeg"
 OUT_PATH = "profile-card.svg"
 
 def get_uptime():
