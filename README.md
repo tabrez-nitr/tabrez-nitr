@@ -17,6 +17,6 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=tabrez-nitr&color=ffffff&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=tabrez-nitr&color=000000&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
 
 </div>
