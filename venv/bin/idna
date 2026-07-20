@@ -1,0 +1,6 @@
+#!/Users/samstabrez/Developer/github_projects/tabrez_nitr_readme/venv/bin/python3.12
+import sys
+from idna.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

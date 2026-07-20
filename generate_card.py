@@ -8,7 +8,7 @@ from PIL import Image, ImageEnhance
 # Config
 USERNAME = "tabrez-nitr"
 JSON_PATH = "neofetch.json"
-IMG_PATH = "pfp_2.jpeg"
+IMG_PATH = "pfp4.png"
 OUT_PATH = "profile-card.svg"
 
 def get_uptime():
@@ -88,7 +88,7 @@ def generate_art():
         img = img.resize((72, 96), Image.Resampling.LANCZOS)
         img = img.convert("RGB")
         # Enhance brightness
-        img = ImageEnhance.Brightness(img).enhance(1.2)
+        img = ImageEnhance.Brightness(img).enhance(1.3)
         
         circles = []
         for y in range(96):
